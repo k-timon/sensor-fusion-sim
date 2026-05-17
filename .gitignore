@@ -1,0 +1,6 @@
+drone_sim
+*.o
+*.out
+
+build/
+.vscode/
