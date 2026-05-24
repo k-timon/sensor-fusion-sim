@@ -1,6 +1,14 @@
 # C++ Drone Telemetry Simulation
 This project simulates drone telemetry sensor data. The implementation uses modern C++ features.  
-
+ 
+**Build:**  
 [Linux]  
-**How to build:** `g++ main.cpp sensor.cpp telemetry_hub.cpp -o drone_sim`  
-**Run:** `./drone_sim`
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+**Run:** 
+```bash
+./drone_sim
+```

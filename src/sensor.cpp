@@ -1,4 +1,5 @@
-#include "sensor.h"
+#include "sensor.hpp"
+
 #include <iostream>
 #include <iomanip>
 

@@ -1,6 +1,31 @@
-drone_sim
+# Build files
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+cmake_install.cmake
+compile_commands.json
+Makefile
+Testing/
+debug/
+release/
 *.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
 *.out
 
-build/
+# IDE
 .vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# macOS
+*.dSYM/

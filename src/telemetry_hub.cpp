@@ -1,5 +1,6 @@
-#include "telemetry_hub.h"
-#include "sensor.h"
+#include "telemetry_hub.hpp"
+#include "sensor.hpp"
+
 void TelemetryHub::register_sensor(std::unique_ptr<Sensor> new_sensor) {
     active_sensors_.push_back(std::move(new_sensor));
 }
